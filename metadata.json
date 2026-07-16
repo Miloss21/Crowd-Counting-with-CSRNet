@@ -1,0 +1,36 @@
+{
+    "input_shape": [
+        3,
+        256,
+        256
+    ],
+    "weights_shape": [
+        64,
+        3,
+        3,
+        3
+    ],
+    "bias_shape": [
+        64
+    ],
+    "input_bytes": 393216,
+    "weights_bytes": 3456,
+    "bias_bytes": 128,
+    "bit_formats": {
+        "activations": {
+            "int": 3,
+            "frac": 10,
+            "total": 13
+        },
+        "weights": {
+            "int": 2,
+            "frac": 8,
+            "total": 10
+        },
+        "bias": {
+            "int": 2,
+            "frac": 10,
+            "total": 12
+        }
+    }
+}
